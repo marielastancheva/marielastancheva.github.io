@@ -1,0 +1,23 @@
+h1 {
+		text-align: center;
+		color: blue;
+		font-size: 60px;
+	}
+	p{
+		color: green;
+		font-style: italic;
+	}
+	p#formated{
+		background-color: blue;
+		color: red;
+	}
+	a{
+		display: block;
+		text-align: center;
+	}
+
+body {
+		background-image: url('../images/icon-green.png');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
