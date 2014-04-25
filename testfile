@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+	<!DOCTYPE html>
 <html>
 <head>
 	<title>My page title bg</title>
@@ -16,7 +17,6 @@
 		<p>Още нещо за мен</p>
 		<p>И още нещо</p>
 		<p>И още едно нещо</p>
-		&lt;end&gt;
 			<a href="../en/index.html">english</a>
 	</article>
 </body>
