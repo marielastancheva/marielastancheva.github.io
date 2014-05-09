@@ -10,12 +10,12 @@
 
 	<article 
 		class=\"main\" 
-		title=My page title bg
+		title=Моята страница en
 	>
-		<p>Нещо за мен</p>
-		<p>Още нещо за мен</p>
-		<p>И още нещо</p>
-		<p>И още едно нещо</p>
+		<p>Something for me</p>
+		<p>Another thing for me</p>
+		<p>And another</p>
+		<p>And another else thing for me</p>
 			<a href=\"../en/index.html\">english</a>
 	</article>
 </body>

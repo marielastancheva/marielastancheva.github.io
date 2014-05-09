@@ -1,5 +1,5 @@
-IO.write("testfile", "
-	<!DOCTYPE html>
+#encoding: utf-8
+templ='	<!DOCTYPE html>
 <html>
 <head>
 	<title>title1</title>
@@ -20,7 +20,7 @@ IO.write("testfile", "
 			<a href=\"../en/index.html\">english</a>
 	</article>
 </body>
-</html>") 
+</html>'
 
 bgText = {
 :title1=> "My page title bg",
@@ -36,7 +36,11 @@ enText = {
 :paragraph3=> "And another",
 :paragraph4=> "And another else thing for me" }
 
+templ1=templ%bgText
+templ2=templ%enText
 
-# puts "здрасти"
-# File.write("bg/testfil1", "Hello world") 
-# puts File.read("testfile")
+
+IO.write("testfilebg", templ1) 
+IO.write("testfileen", templ2)
+
+
