@@ -40,7 +40,7 @@ templ1=templ%bgText
 templ2=templ%enText
 
 
-IO.write("testfilebg", templ1) 
-IO.write("testfileen", templ2)
+IO.write("bg/testfile.html", templ1) 
+IO.write("en/testfile.html", templ2)
 
 
