@@ -5,5 +5,6 @@ bgText = YAML.load_file('bg_hash.yml')
 enText = YAML.load_file('en_hash.yml')
 templ2=templ%enText
 templ1=templ%bgText
-IO.write("testfilebg.html", templ1) 
-IO.write("testfileen.html", templ2)
+
+IO.write("bg/testfile.html", templ1) 
+IO.write("en/testfile.html", templ2)
